@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Shopping list example</title>
+  </head>
+  <body>
+
+    <section>
+        <h1>Moja šoping lista</h1>
+
+        <div>
+          <label for="item">Dodaj stavku ručno:</label>
+          <input type="text" name="item" id="item">
+          <button id="dodajGumb" onclick="addItem()">DODAJ</button>
+        </div>
+        <div class="paragraf">
+          <p>ILI pomoću govora:</p>
+        </div>
+        <div>
+          <button id="startGumb">POČNI SLUŠATI</button>
+          <button id="stopGumb">PRESTANI SLUŠATI</button>
+          <span id="slusamTe"></span>
+        </div>
+
+        <ul>
+
+        </ul>
+    </section>
+
+    <script src="index.js"></script>
+  </body>
+</html>
